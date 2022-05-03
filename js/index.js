@@ -5,5 +5,5 @@ document.addEventListener("DOMContentLoaded", function() {
         .then(stuff => stuff.json())
         .then(bookList => bookList);
     }
-    console.log(getBooks());
+    console.log(getBooks())
 });
