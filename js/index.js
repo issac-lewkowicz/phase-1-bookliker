@@ -7,7 +7,7 @@ function getBooks(){
     fetch('http://localhost:3000/books')
     .then(stuff => stuff.json())
     // invoke renderbooks
-    .then(bookList => renderBooks(bookList))
+    .then(bookList => renderBooks(bookList));
   }
 
 function renderBooks(books) {
